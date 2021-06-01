@@ -1,5 +1,7 @@
 import styles from '../styles/home.module.scss'
 
+import Link from 'next/link'
+
 export default function Home() {
   return (
     <div className={styles.container}>
@@ -15,7 +17,9 @@ export default function Home() {
             <img src="characters.jpg" alt="" />
           </div>
           <p>Characters</p>
-          <a href=""></a>
+          <Link href="/characters">
+            <a></a>
+          </Link>
         </div>
         <div className={styles.box}>
           <div className={styles.option}>
