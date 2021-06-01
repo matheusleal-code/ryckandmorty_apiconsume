@@ -3,6 +3,142 @@
 
   background: linear-gradient(0, #120c56, #000000);
 
+  .stars {
+    position: relative;
+    width: 3px;
+    height: 3px;
+    border-radius: 50%;
+    box-shadow: 50px 30px white, 100px 80px white, 80px 120px white,
+      300px 20px white, 250px 130px white, 200px 50px white, 150px 100px white,
+      320px 100px white, 340px 120px white, 310px 130px white, 250px 160px white,
+      260px 180px white, 210px 150px white, 202px 190px white, 210px 200px white,
+      120px 120px white, 140px 160px white, 400px 160px white, 310px 200px white,
+      50px 160px white, 70px 190px white, 90px 200px white, 99px 250px white,
+      79px 300px white, 97px 320px white, 120px 230px white, 300px 230px white,
+      310px 260px white, 350px 200px white, 400px 160px white, 200px 400px white,
+      210px 420px white, 250px 440px white, 200px 460px white, 200px 480px white,
+      100px 400px white, 100px 460px white, 250px 480px white, 120px 500px white,
+      20px 400px white, 40px 420px white, 40px 300px white, 50px 330px white,
+      60px 350px white, 40px 400px white, 210px 20px white, 260px 300px white,
+      280px 340px white, 220px 350px white, 260px 360px white, 290px 300px white,
+      260px 400px white, 340px 360px white, 310px 380px white, 360px 280px white,
+      340px 260px white, 340px 400px white, 340px 600px white, 320px 560px white,
+      310px 520px white, 340px 500px white, 320px 480px white, 20px 620px white,
+      30px 560px white, 30px 520px white, 50px 500px white, 60px 620px white,
+      40px 650px white, 130px 640px white, 200px 620px white, 220px 640px white,
+      240px 660px white, 260px 580px white, 280px 600px white, 360px 640px white;
+    animation: anim-stars 10s linear infinite;
+
+    @keyframes anim-stars {
+      from {
+        transform: translateY(0px);
+      }
+      to {
+        transform: translateY(-150px);
+      }
+    }
+
+    &::after {
+      content: " ";
+      position: absolute;
+      top: 150px;
+      width: 3px;
+      height: 3px;
+      border-radius: 50%;
+      box-shadow: 50px 30px white, 100px 80px white, 80px 120px white,
+        300px 20px white, 250px 130px white, 200px 50px white, 150px 100px white,
+        320px 100px white, 340px 120px white, 310px 130px white,
+        250px 160px white, 260px 180px white, 210px 150px white,
+        202px 190px white, 210px 200px white, 120px 120px white,
+        140px 160px white, 400px 160px white, 310px 200px white,
+        50px 160px white, 70px 190px white, 90px 200px white, 99px 250px white,
+        79px 300px white, 97px 320px white, 120px 230px white, 300px 230px white,
+        310px 260px white, 350px 200px white, 400px 160px white,
+        200px 400px white, 210px 420px white, 250px 440px white,
+        200px 460px white, 200px 480px white, 100px 400px white,
+        100px 460px white, 250px 480px white, 120px 500px white,
+        20px 400px white, 40px 420px white, 40px 300px white, 50px 330px white,
+        60px 350px white, 40px 400px white, 210px 20px white, 260px 300px white,
+        280px 340px white, 220px 350px white, 260px 360px white,
+        290px 300px white, 260px 400px white, 340px 360px white,
+        310px 380px white, 360px 280px white, 340px 260px white,
+        340px 400px white, 340px 600px white, 320px 560px white,
+        310px 520px white, 340px 500px white, 320px 480px white,
+        20px 620px white, 30px 560px white, 30px 520px white, 50px 500px white,
+        60px 620px white, 40px 650px white, 130px 640px white, 200px 620px white,
+        220px 640px white, 240px 660px white, 260px 580px white,
+        280px 600px white, 360px 640px white;
+    }
+  }
+
+  .stars2 {
+    position: relative;
+    width: 1px;
+    height: 1px;
+    border-radius: 50%;
+    box-shadow: 20px 40px white, 110px 50px white, 60px 140px white,
+      310px 40px white, 260px 120px white, 210px 60px white, 180px 130px white,
+      320px 160px white, 340px 110px white, 320px 150px white, 220px 140px white,
+      210px 120px white, 240px 120px white, 222px 200px white, 220px 210px white,
+      110px 110px white, 150px 160px white, 410px 150px white, 320px 220px white,
+      70px 180px white, 80px 200px white, 110px 220px white, 111px 270px white,
+      90px 310px white, 100px 340px white, 110px 260px white, 320px 250px white,
+      320px 240px white, 370px 230px white, 460px 120px white, 220px 430px white,
+      210px 420px white, 250px 440px white, 200px 430px white, 270px 450px white,
+      100px 400px white, 100px 460px white, 250px 480px white, 120px 500px white,
+      20px 400px white, 40px 420px white, 40px 300px white, 50px 330px white,
+      60px 350px white, 40px 400px white, 210px 20px white, 260px 300px white,
+      280px 340px white, 220px 350px white, 260px 360px white, 290px 300px white,
+      260px 400px white, 340px 360px white, 310px 380px white, 360px 280px white,
+      334px 250px white, 330px 410px white, 320px 610px white, 320px 560px white,
+      314px 520px white, 320px 540px white, 340px 430px white, 20px 620px white,
+      40px 550px white, 30px 520px white, 50px 500px white, 60px 620px white,
+      20px 630px white, 140px 660px white, 260px 620px white, 220px 640px white,
+      220px 630px white, 230px 540px white, 250px 600px white, 360px 640px white;
+    animation: anim-stars 20s linear infinite;
+
+    @keyframes anim-stars {
+      from {
+        transform: translateY(0px);
+      }
+      to {
+        transform: translateY(-200px);
+      }
+    }
+
+    &::after {
+      content: " ";
+      position: absolute;
+      top: 150px;
+      width: 1px;
+      height: 1px;
+      border-radius: 50%;
+      box-shadow: 20px 40px white, 110px 50px white, 60px 140px white,
+        310px 40px white, 260px 120px white, 210px 60px white, 180px 130px white,
+        320px 160px white, 340px 110px white, 320px 150px white,
+        220px 140px white, 210px 120px white, 240px 120px white,
+        222px 200px white, 220px 210px white, 110px 110px white,
+        150px 160px white, 410px 150px white, 320px 220px white,
+        70px 180px white, 80px 200px white, 110px 220px white, 111px 270px white,
+        90px 310px white, 100px 340px white, 110px 260px white,
+        320px 250px white, 320px 240px white, 370px 230px white,
+        460px 120px white, 220px 430px white, 210px 420px white,
+        250px 440px white, 200px 430px white, 270px 450px white,
+        100px 400px white, 100px 460px white, 250px 480px white,
+        120px 500px white, 20px 400px white, 40px 420px white, 40px 300px white,
+        50px 330px white, 60px 350px white, 40px 400px white, 210px 20px white,
+        260px 300px white, 280px 340px white, 220px 350px white,
+        260px 360px white, 290px 300px white, 260px 400px white,
+        340px 360px white, 310px 380px white, 360px 280px white,
+        334px 250px white, 330px 410px white, 320px 610px white,
+        320px 560px white, 314px 520px white, 320px 540px white,
+        340px 430px white, 20px 620px white, 40px 550px white, 30px 520px white,
+        50px 500px white, 60px 620px white, 20px 630px white, 140px 660px white,
+        260px 620px white, 220px 640px white, 220px 630px white,
+        230px 540px white, 250px 600px white, 360px 640px white;
+    }
+  }
+
   .options {
     height: 100%;
 
@@ -14,25 +150,48 @@
 
     color: white;
 
-    .option {
-      margin: 0.8rem;
+    .box {
+      position: relative;
+      margin: 0.2rem;
 
-      display: flex;
-      align-items: center;
-      justify-content: center;
+      .option {
+        margin: 0.8rem;
 
-      width: 100px;
-      height: 100px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
 
-      text-align: center;
+        width: 100px;
+        height: 100px;
 
-      border-radius: 50%;
+        border-radius: 50%;
 
-      background-color: rgb(13, 110, 26);
-    }
+        background-color: rgb(136, 143, 143);
 
-    p {
-      font-size: 1.4rem;
+        img {
+          width: 100px;
+          height: 100px;
+          border-radius: 50%;
+        }
+
+        p {
+          font-size: 4rem;
+          text-align: center;
+        }
+      }
+
+      p {
+        font-size: 1.4rem;
+        text-align: center;
+      }
+
+      a {
+        position: absolute;
+        top: 0;
+        left: 0;
+        right: 0;
+        bottom: 0;
+      }
     }
   }
 }
